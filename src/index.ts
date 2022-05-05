@@ -2,7 +2,7 @@ import randomInteger from "./random_integer"
 
 const ALPHA_NUM = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-export function get(prefix = "", separator = "_", len = 20) {
+export function get(prefix = "", separator = "_", len = 20): string {
   const value = new Array(len)
 
   for (let i = 0; i < len; i++) {
